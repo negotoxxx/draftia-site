@@ -10,8 +10,8 @@
 <body>
 <nav>
   <div class="wrap nav-inner">
-    <div class="brand"><span class="mark">✿</span><span>Draftia</span></div>
-    <div class="nav-links">
+    <a class="brand" href="index.html"><span class="mark">✿</span><span>Draftia</span></a>
+    <div class="links">
       <a href="#features">Features</a>
       <a href="#screenshots">Screenshots</a>
       <a href="#product">Product info</a>
@@ -20,111 +20,73 @@
     </div>
   </div>
 </nav>
-
 <header class="hero">
   <div class="wrap hero-grid">
     <div>
       <span class="kicker">Windows desktop application</span>
       <h1>Draftia</h1>
       <h2>One place for your team’s information.</h2>
-      <p class="lead">
-        Draftia helps League of Legends teams organize champion pools, matchup notes,
-        draft planning, opponent research, schedules, feedback, and practice tasks.
-      </p>
-      <div class="cta-row">
-        <a class="btn primary" href="#features">View features</a>
-        <a class="btn secondary" href="#screenshots">View screenshots</a>
+      <p class="lead">Draftia is a desktop application designed to help League of Legends teams organize information used for team practice, match preparation, and draft planning.</p>
+      <div class="cta">
+        <a class="btn primary" href="#screenshots">View screenshots</a>
+        <a class="btn secondary" href="#product">Product info</a>
       </div>
       <p class="small" style="margin-top:18px">Independent third-party product. Not an official Riot Games product.</p>
     </div>
-
-    <div class="mock" aria-label="Draftia UI mockup">
-      <div class="windowbar"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
-      <div class="mock-grid">
-        <div class="sidebar">
-          <div class="side-item active"></div><div class="side-item"></div><div class="side-item"></div>
-          <div class="side-item"></div><div class="side-item"></div><div class="side-item"></div>
-        </div>
-        <div class="content">
-          <div class="banner"></div>
-          <div class="cards">
-            <div class="card-mini"></div><div class="card-mini"></div><div class="card-mini"></div>
-            <div class="card-mini"></div><div class="card-mini"></div><div class="card-mini"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="hero-shot"><img src="assets/champion-pool.png" alt="Draftia Champion Pool screenshot"></div>
   </div>
 </header>
-
 <section class="section" id="features">
   <div class="wrap">
     <h3>What Draftia does</h3>
-    <p class="intro">Draftia is designed for premade teams, amateur competitive teams, and community tournament participants.</p>
-    <div class="features">
-      <div class="feature"><strong>Champion Pool</strong><p>Organize each member’s champions by role, proficiency, tags, and flex roles.</p></div>
-      <div class="feature"><strong>Matchup</strong><p>Record manual counter, synergy, and matchup notes for team preparation.</p></div>
-      <div class="feature"><strong>BAN / PICK</strong><p>Manually build draft scenarios and review team composition needs.</p></div>
-      <div class="feature"><strong>Battle Note</strong><p>Keep opponent, player, notable champion, and research notes together.</p></div>
-      <div class="feature"><strong>Schedule</strong><p>Manage scrims, matches, and team practice schedules.</p></div>
-      <div class="feature"><strong>Work</strong><p>Record feedback and tasks discovered during practice or scrims.</p></div>
+    <p class="intro">Draftia is designed for premade teams, amateur competitive teams, and community tournament participants. It helps teams keep their information in one place before, during, and after scrims or matches.</p>
+    <div class="grid3">
+      <div class="card"><strong>Champion Pool</strong><p>Organize each member’s champions by role, tags, and proficiency.</p></div>
+      <div class="card"><strong>Matchup</strong><p>Record manual synergy and counter notes for champion preparation.</p></div>
+      <div class="card"><strong>BAN / PICK</strong><p>Manually build and save draft scenarios for team discussion.</p></div>
+      <div class="card"><strong>Schedule</strong><p>Track scrims, tournaments, meetings, and team events.</p></div>
+      <div class="card"><strong>Battle Note</strong><p>Store opponent notes, match history, and prep information together.</p></div>
+      <div class="card"><strong>Work</strong><p>Keep feedback, improvement points, and next tasks visible for the team.</p></div>
     </div>
   </div>
 </section>
-
 <section class="section" id="screenshots">
   <div class="wrap">
     <h3>Product screenshots</h3>
-    <p class="intro">Replace these placeholders with real screenshots from the current Windows build before submitting the Riot production application.</p>
-    <div class="screens">
-      <div class="screen"><b>01 — HOME<br><span class="small">Overall navigation / team dashboard</span></b></div>
-      <div class="screen"><b>02 — CHAMPION POOL<br><span class="small">Member pools, roles, tags, proficiency</span></b></div>
-      <div class="screen"><b>03 — MATCHUP<br><span class="small">Manual counter / synergy notes</span></b></div>
-      <div class="screen"><b>04 — BAN / PICK<br><span class="small">Manual draft planning</span></b></div>
-      <div class="screen"><b>05 — BATTLE NOTE<br><span class="small">Opponent research and notes</span></b></div>
-      <div class="screen"><b>06 — SCHEDULE / WORK<br><span class="small">Team schedule, feedback, tasks</span></b></div>
+    <p class="intro">These screenshots are from the current Windows build of Draftia.</p>
+    <div class="gallery">
+      <article class="shot"><img src="assets/champion-pool.png" alt="Champion Pool"><div class="meta"><b>Champion Pool</b><p>Manage team champion pools across TOP, JUG, MID, ADC, and SUP with tags and notes.</p></div></article>
+      <article class="shot"><img src="assets/matchup.png" alt="Matchup"><div class="meta"><b>Matchup</b><p>Store synergy and counter information manually for each champion.</p></div></article>
+      <article class="shot"><img src="assets/ban-pick.png" alt="BAN PICK"><div class="meta"><b>BAN / PICK</b><p>Review pools and plan a draft while comparing both team sides.</p></div></article>
+      <article class="shot"><img src="assets/schedule.png" alt="Schedule"><div class="meta"><b>Schedule</b><p>Manage scrims, meetings, and event details in a shared calendar view.</p></div></article>
+      <article class="shot"><img src="assets/battle-note.png" alt="Battle Note"><div class="meta"><b>Battle Note</b><p>Keep opponent research, OPGG links, match records, and notes in one place.</p></div></article>
+      <article class="shot"><img src="assets/work.png" alt="Work"><div class="meta"><b>Work</b><p>Track team feedback, member improvement points, and next tasks.</p></div></article>
     </div>
   </div>
 </section>
-
 <section class="section" id="product">
   <div class="wrap">
     <h3>Product information</h3>
     <div class="info-grid">
       <div class="info"><b>Platform</b>Windows desktop application</div>
-      <div class="info"><b>Data storage</b>Draftia stores its application data locally on the user’s PC.</div>
+      <div class="info"><b>Data storage</b>Draftia stores its data locally on the user’s PC.</div>
       <div class="info"><b>Riot Web API</b>Draftia currently does not retrieve player or match data using the Riot Games Web API.</div>
-      <div class="info"><b>Gameplay automation</b>None. Draftia does not control the League client or automate in-game actions.</div>
-      <div class="info"><b>Decision making</b>Draft planning and strategic decisions remain manual and are made by players.</div>
+      <div class="info"><b>Gameplay automation</b>None. Draftia does not control the League of Legends client or automate in-game actions.</div>
+      <div class="info"><b>Decision making</b>Strategic decisions and draft choices remain manual and are made by players.</div>
       <div class="info"><b>Distribution</b>Public distribution is planned after Riot registration and policy confirmation.</div>
     </div>
-
-    <div class="note" style="margin-top:22px">
-      <b>Monetization status</b><br>
-      A paid version is under consideration. The final distribution and monetization model will be adjusted to comply with Riot Games policies before release.
-    </div>
+    <div class="note"><b>Monetization status</b><br>A paid version is under consideration. The final distribution and monetization model will be adjusted to comply with Riot Games policies before release.</div>
   </div>
 </section>
-
 <section class="section legal">
   <div class="wrap">
     <h3>Riot Games notice</h3>
-    <p>
-      Before publishing this site, replace this paragraph with the exact legal boilerplate
-      required by Riot Games' current General Policies.
-    </p>
-    <p class="small">
-      Official policy: developer.riotgames.com/policies/general
-    </p>
+    <p class="intro">The following notice is displayed for Riot policy compliance.</p>
+    <div class="codebox">Draftia isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</div>
   </div>
 </section>
-
 <footer>
-  <div class="wrap">
-    <b>Draftia</b><br>
-    Independent League of Legends team management tool.<br><br>
-    <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a>
-  </div>
+  <div class="wrap"><b>Draftia</b><br>Independent League of Legends team management tool.<br><br><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></div>
 </footer>
 </body>
 </html>
